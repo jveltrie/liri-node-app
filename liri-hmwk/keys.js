@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log('API KEYS ARE LOADED');
 
 exports.spotify = {
@@ -12,13 +11,5 @@ exports.omdb = {
 
 exports.bandsInTownAPI = {
     id: "https://rest.bandsintown.com/artists/events?app_id=codingbootcamp"
-  };
-  
-=======
-console.log('API KEYS ARE LOADED');
-
-exports.spotify = {
-  id: process.env.SPOTIFY_ID,
-  secret: process.env.SPOTIFY_SECRET
 };
->>>>>>> 2b3fc5753449c705ae46619ac8f10df0c3a2f062
+  
